@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  # Global-KB Database (Port 5432)
+  postgres_global:
+    image: postgres:16-alpine
+    container_name: salesbrain_global_kb
+    environment:
+      POSTGRES_DB: salesbrain_global_kb
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: dev123
+      POSTGRES_INITDB_ARGS: "--encoding=UTF8"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_global_data:/var/lib/postgresql/data
+      - ./sql/global_kb.sql:/docker-entrypoint-initdb.d/01-schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dev -d salesbrain_global_kb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - salesbrain_network
+
+  # Tenant Database (Port 5433)
+  postgres_tenant:
+    image: postgres:16-alpine
+    container_name: salesbrain_tenant_db
+    environment:
+      POSTGRES_DB: salesbrain_tenant
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: dev123
+      POSTGRES_INITDB_ARGS: "--encoding=UTF8"
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_tenant_data:/var/lib/postgresql/data
+      - ./sql/tenant_db.sql:/docker-entrypoint-initdb.d/01-schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dev -d salesbrain_tenant"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - salesbrain_network
+
+volumes:
+  postgres_global_data:
+    driver: local
+  postgres_tenant_data:
+    driver: local
+
+networks:
+  salesbrain_network:
+    driver: bridge
