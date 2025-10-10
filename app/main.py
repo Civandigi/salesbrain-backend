@@ -11,6 +11,8 @@ from app.core.config import settings
 from app.core.db import init_db_pools, close_db_pools
 from app.api.health import router as health_router
 from app.api.auth import router as auth_router
+from app.api.instantly import router as instantly_router
+from app.integrations.instantly.webhooks import router as instantly_webhooks_router
 
 
 @asynccontextmanager
@@ -43,6 +45,10 @@ app.add_middleware(
 # Include routers
 app.include_router(health_router, tags=["Health"])
 # app.include_router(auth_router)  # Temporarily disabled for testing
+
+# Instantly Integration routers
+app.include_router(instantly_router)  # API endpoints
+app.include_router(instantly_webhooks_router)  # Webhook endpoints
 
 
 @app.get("/")
