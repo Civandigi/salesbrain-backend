@@ -10,6 +10,7 @@ from app.integrations.instantly.schemas import InstantlyWebhookPayload, Instantl
 from app.services.message_service import MessageService
 from app.services.campaign_service import CampaignService
 from app.services.email_account_service import EmailAccountService
+from app.services import webhook_log_service
 
 logger = logging.getLogger(__name__)
 
@@ -46,20 +47,56 @@ async def instantly_webhook(payload: InstantlyWebhookPayload):
         f"for campaign {payload.campaign_name}"
     )
 
+    # Prepare variables for webhook logging
+    log_id = None
+    campaign_id = None
+    contact_id = None
+    organization_id = None
+
     try:
         # Route to appropriate handler based on event type
         result = await _route_webhook_event(payload)
+
+        # Extract IDs from result
+        campaign_id = result.get('campaign_id')
+        contact_id = result.get('contact_id')
+        organization_id = result.get('organization_id')
+
+        # Log successful webhook to database
+        log_id = await webhook_log_service.create_webhook_log(
+            event_type=payload.event_type.value,
+            payload=payload.dict(),
+            event_source="instantly",
+            campaign_id=campaign_id,
+            contact_id=contact_id,
+            organization_id=organization_id,
+            status="success"
+        )
 
         return {
             "status": "success",
             "event_type": payload.event_type.value,
             "campaign_id": payload.campaign_id,
+            "log_id": str(log_id),
             **result
         }
 
     except ValueError as e:
         # Campaign not found or invalid data
         logger.warning(f"[Webhook] Validation error: {e}")
+
+        # Log failed webhook to database
+        await webhook_log_service.create_webhook_log(
+            event_type=payload.event_type.value,
+            payload=payload.dict(),
+            event_source="instantly",
+            campaign_id=campaign_id,
+            contact_id=contact_id,
+            organization_id=organization_id,
+            status="failed",
+            error_message=str(e)
+        )
+
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail=str(e)
@@ -68,6 +105,19 @@ async def instantly_webhook(payload: InstantlyWebhookPayload):
     except Exception as e:
         # Unexpected error
         logger.error(f"[Webhook] Processing error: {e}", exc_info=True)
+
+        # Log failed webhook to database
+        await webhook_log_service.create_webhook_log(
+            event_type=payload.event_type.value,
+            payload=payload.dict(),
+            event_source="instantly",
+            campaign_id=campaign_id,
+            contact_id=contact_id,
+            organization_id=organization_id,
+            status="failed",
+            error_message=str(e)
+        )
+
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Failed to process webhook: {str(e)}"

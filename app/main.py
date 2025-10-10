@@ -12,6 +12,7 @@ from app.core.db import init_db_pools, close_db_pools
 from app.api.health import router as health_router
 from app.api.auth import router as auth_router
 from app.api.instantly import router as instantly_router
+from app.api.admin import router as admin_router
 from app.integrations.instantly.webhooks import router as instantly_webhooks_router
 
 
@@ -45,6 +46,9 @@ app.add_middleware(
 # Include routers
 app.include_router(health_router, tags=["Health"])
 # app.include_router(auth_router)  # Temporarily disabled for testing
+
+# Admin Dashboard routers
+app.include_router(admin_router)  # Admin Dashboard API
 
 # Instantly Integration routers
 app.include_router(instantly_router)  # API endpoints
