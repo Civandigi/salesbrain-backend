@@ -1,0 +1,1877 @@
+{
+  "pages": [],
+  "sections": [],
+  "navigation": [],
+  "text_content": [],
+  "placeholders": [
+    {
+      "placeholder": "Suchen",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[0]/div[1]",
+      "tag": "input"
+    },
+    {
+      "placeholder": "Fragen Sie den Brain nach Ihren Kampagnen, Leads oder Strategien...",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[0]",
+      "tag": "input"
+    }
+  ],
+  "labels": [
+    {
+      "label": "App Icon",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]",
+      "type": "aria"
+    },
+    {
+      "label": "Notifications (F8)",
+      "path": "[0]/div[3]",
+      "type": "aria"
+    },
+    {
+      "label": "Support kontaktieren",
+      "path": "[0]/div[4]/div[0]",
+      "type": "title"
+    }
+  ],
+  "ids": [
+    {
+      "id": "builder-6b0a7d46ec2246c297052c325e0fd97b",
+      "path": "[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-2a3fcceaf6fa4634bea5011674d46df0",
+      "path": "[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-eee6eec09f194126ac9aab7e8aedc871",
+      "path": "[0]/div[1]",
+      "tag": "next-route-announcer"
+    },
+    {
+      "id": "builder-390c92d1c4364efe860007a518a4d988",
+      "path": "[0]/div[2]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-25e91b2c22444cc8abfb9fc690f9d370",
+      "path": "[0]/div[2]/div[0]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-55cc307a6afb4de3a0a753e9a8987d92",
+      "path": "[0]/div[2]/div[0]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-d77d5ec0e9fd406182c388a50cbcd8fb",
+      "path": "[0]/div[2]/div[0]/button[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-a8c7ef5bb0a84240b9401759770694ff",
+      "path": "[0]/div[2]/div[1]",
+      "tag": "aside"
+    },
+    {
+      "id": "builder-e540860001ae4f59b54751558132a60b",
+      "path": "[0]/div[2]/div[1]/aside[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-10256831bb4245dc917646e208106a0a",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-45db99f1cc624cf6bb0b94d23969dd03",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-a1135144335d46a9be0fc0e44673a65d",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-1a31bad473bb4c43a9065e006471c9c1",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-8bd5bc06197f4b9cb606fd8e71947a19",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-c9b51d50da554041bf34aa756496d52f",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[0]",
+      "tag": "defs"
+    },
+    {
+      "id": "builder-e7aa4eb4404c4fb8a48b55f2dba55aed",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[0]/defs[0]",
+      "tag": "clippath"
+    },
+    {
+      "id": "builder-c6279cee1e664b7b90391586f91f87e3",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[0]/defs[0]/clippath[0]",
+      "tag": "rect"
+    },
+    {
+      "id": "builder-dfd1dd2081ec431c82e604b6abdbd587",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[0]/defs[1]",
+      "tag": "clippath"
+    },
+    {
+      "id": "builder-d61e831b6e764afa90ecd3d0865b60cc",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[0]/defs[1]/clippath[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-364ea90c1e244850ba035133ee593dbb",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[0]/defs[2]",
+      "tag": "clippath"
+    },
+    {
+      "id": "builder-19f35b941f8d4a1285a82dc8498135c2",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[0]/defs[2]/clippath[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-9477d19e42584ac0b4326f839b6a8102",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-c6321c2bfbd14b23bc5ceb514a8a93c1",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-d790553f608c4fc9a8d0d1d849f1aaa2",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[0]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-7bd8f1880d3f4e7d8052cd8221760164",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[0]/g[0]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-921f9eee90654834a69ef67c07b2f852",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[0]/g[0]/g[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-55c3375c26a54b63b41c7f61c252f841",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[1]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-c519c127d223406c92370f7b3cce4b56",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[1]/g[0]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-d805bd9bfcb84bbfa57cc0ef2bf77a09",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[1]/g[0]/g[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-2814ba57a1034b2087bb8f5dad0d809c",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[2]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-9e88ff6e02cd49a0af1a74cb6707e063",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[2]/g[0]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-9b649651de0a46b789b55044ba04a31d",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[2]/g[0]/g[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-0b93a4cf863644a0834960856a375eb5",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[3]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-9622e2f35ea94031a344bb54fa4c36e7",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[3]/g[0]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-7de921c62e26472ead3f794f9033dc4d",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[3]/g[0]/g[0]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-57213c3b2d9e48088f6446e8a36ee132",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[3]/g[0]/g[0]/g[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-99bd9abc73fa42d3ad69e86277c2c836",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[3]/g[0]/g[1]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-52b61553a81f41e9b01571b5eaaa21de",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[3]/g[0]/g[1]/g[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-aed6968d956849a2a5dd81e33d64c3c0",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[4]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-871b4cf2c4e54165b48fa13098d0fe8d",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[4]/g[0]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-c0cf544b153d422f88676ee35e182c63",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[4]/g[0]/g[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-e39bc5cb2af2408fb2dba4aa49440dda",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[4]/g[1]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-3e031dff3dfa484fab857511bdd4ae4b",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[4]/g[1]/g[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-8fbea32bed61490fa76f6b2a672c3864",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[5]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-4a959d7cc168447087a3c1efff503c29",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[5]/g[0]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-dc1e0e901abb4641ae99315b378c92e3",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[5]/g[0]/g[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-9c33bb689c1a4d029e578bf96529d68f",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[6]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-d0130b4ff6fa4f86addbf4009603bded",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[6]/g[0]",
+      "tag": "g"
+    },
+    {
+      "id": "builder-1a11b56fa874406884f1427196994618",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[0]/div[0]/div[0]/svg[1]/g[0]/g[6]/g[0]/g[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-ecc3c1e8d27e4455b22869622ce69a63",
+      "path": "[0]/div[2]/div[1]/aside[0]/div[0]/div[0]/div[1]",
+      "tag": "h1"
+    },
+    {
+      "id": "builder-3149520ca4814b5d8a06bbaa67013843",
+      "path": "[0]/div[2]/div[1]/aside[1]",
+      "tag": "nav"
+    },
+    {
+      "id": "builder-5084e289bffa41f1ab0caad5ec81518c",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]",
+      "tag": "a"
+    },
+    {
+      "id": "builder-05d7b0a71c084752823e5e53223df8aa",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-dc7cb3e2c4c94369b288b718d193a849",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-551b9e3f5830410aae75d0c9ccf95865",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-ff57ecc0780f41819304fe0c7f6430b0",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]/div[0]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-51694529affd4c868d80ef660cb50dee",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]/div[0]/div[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-6840f73cf29f483f8da0b50797fa5553",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]/div[0]/div[0]/svg[2]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-c7e9e0335d3943449f9a23aebefdb5a8",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]/div[0]/div[0]/svg[3]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-350e042641b1490d8d88172c986337dc",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]/div[0]/div[0]/svg[4]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-60469fdba66c472ba3f1f369c0c70866",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]/div[0]/div[0]/svg[5]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-df872e9288b148dfb84b4fe8c52462bb",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]/div[0]/div[0]/svg[6]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-3fb791c21b154351b0e910b605de9f7f",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]/div[0]/div[0]/svg[7]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-63ff467faedf4faa9714e56ac689b6bc",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[0]/div[0]/div[0]/svg[8]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-68f9df53eb984cb0b4e0de068564f18b",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-7e78b07f73ed4ac2a86160b18c8d40c7",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[1]/div[0]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-eeda07e9419147cda52290b936543d77",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]/a[2]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-561b80f1c0e441ef8870c8c684e19160",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]",
+      "tag": "a"
+    },
+    {
+      "id": "builder-ec6b5f9da7db4c7da2a09ba9c6a01f45",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-7aecbfb6bb744e4cac444cca0dcedef0",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-ea7278e9078f4d829d08bbaa8b9863c1",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-c23a8396f84045f282a9503c392a94be",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[0]/div[0]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-1ed09acc2ea040a5a34543c72591d52a",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[0]/div[0]/div[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-797d371af9484c0391f6be25e4988b33",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[0]/div[0]/div[0]/svg[2]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-cd6a3e16047e4c23b8e666a19f69a24d",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[0]/div[0]/div[0]/svg[3]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-70536f49d0e34b2f932f797f11e339b7",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[0]/div[0]/div[0]/svg[4]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-451b3d3082eb44288805b1798dada895",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-56ff552c134e4bb99017a45c7ccb0295",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[1]/div[0]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-0c4f9067c3d2439e82f8a343dce3e7c8",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[1]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-6f0fc2ca1a644430bb14dbcda84c99c2",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]/a[1]/div[1]/div[0]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-602b84aa11394a27b48b7bc04c5b74c9",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[2]",
+      "tag": "a"
+    },
+    {
+      "id": "builder-ff9d2463875f40a6b7a3711fa4e4d3ff",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[2]/a[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-2e920a4db268493f86aef9a1e5ea1b3e",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[2]/a[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-7bbc4bd3ec2144e88a140b6804b58da1",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[2]/a[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-4b9a6e2bbd2e4c248892c7e6e52daa61",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[2]/a[0]/div[0]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-c4767846247a43dfbf3b96c8bc53dd40",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[2]/a[0]/div[0]/div[0]/svg[1]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-3fe87dc109e64c199b27748b107f12fc",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[2]/a[0]/div[0]/div[0]/svg[2]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-d9e32d965d1a42939259df40767f69f5",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[2]/a[0]/div[0]/div[0]/svg[3]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-4ee87e2f47484a71939ec22fece055ee",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[2]/a[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-77731ed337f14f8283ad3b5ff800c674",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[2]/a[1]/div[0]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-3c9f1151cac048798168fc3b69cf8667",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[3]",
+      "tag": "a"
+    },
+    {
+      "id": "builder-624f4d84a47d46dfb22e4bbe0a934877",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[3]/a[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-82c5e0e8d0024ba0a4b944974b14bf4c",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[3]/a[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-b5fc1cd7471046a79c0ad5ea274af258",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[3]/a[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-85b335ceaba949458270e47b90ce71fb",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[3]/a[0]/div[0]/div[0]/svg[0]",
+      "tag": "rect"
+    },
+    {
+      "id": "builder-da35625299ae4cbe98e1e49fb90bdb2e",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[3]/a[0]/div[0]/div[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-128e654e15d840d987c407e54f5876c7",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[3]/a[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-2384cf4d932e41deb11813b7f686a279",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[3]/a[1]/div[0]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-bd3f2caae5a146518399889c00e31841",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[4]",
+      "tag": "a"
+    },
+    {
+      "id": "builder-97b645554724487c9faa1839ad4e8da0",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[4]/a[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-76b90147722d40a6b44a83936ba01268",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[4]/a[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-95bef105433846c7bbcdd89202c815f1",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[4]/a[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-9466d7251e414ac28f7c7a4688758871",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[4]/a[0]/div[0]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-2b2fd99ad9344b94b51a2f3b9d38ea47",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[4]/a[0]/div[0]/div[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-5002011b31424902855cf523a29d7c31",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[4]/a[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-d0ea7b20337249a9b651fe6119d8fe22",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[4]/a[1]/div[0]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-54341e5505404ef983971f6a8e4f7fc9",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[5]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-35b4bcbcd5674fa79707a787c66403d3",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[5]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-72fcd03a6e3d4f9797e4a5d891d5a213",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[6]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-60fbfc2ebfab4071b950ef956b7c5d95",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[6]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-bd0c2118921a459d9bb3b905456af36b",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[6]/div[0]/div[0]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-1df9012a021046358685efd1ee185afa",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[6]/div[0]/div[0]/button[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-636b465094a94fe5baa42e44d5d9b55f",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[6]/div[0]/div[0]/button[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-c1f9284160ac45bb99e06299838566bc",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[6]/div[0]/div[0]/button[0]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-590860896ec14eb39978e4b6e36ccdb9",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[6]/div[0]/div[0]/button[0]/div[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-d5253a84e3ea441dac130c8151112945",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[6]/div[0]/div[0]/button[1]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-b70ceb0fc8d1414986b584487d695dae",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[6]/div[0]/div[0]/button[1]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-37ab4a98275948cc95acaf02c58f5b61",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[7]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-a9d9d62b7ce44fce946d8ff4af29cf18",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[7]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-4b007fdc20e34222b55c433eb228b933",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-b572c615a2bc4b5b9f4d74d77ff7cfef",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[0]",
+      "tag": "p"
+    },
+    {
+      "id": "builder-2a153131246640fc9952ffaeca9d1b58",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-2f4abb502f70488fb9d77025f3129efa",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-e835b8716f8a472891d14cb0913d72ae",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-b11242b24c354565bf36696776f587a5",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-e4653ce304bb488696458c6a756f6e86",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-5771c08958a7463186c619560be269d5",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[0]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-b712f9b439404ea78d9b0ab3dfe41be9",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[0]/div[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-f923f7141e8b42c2bde02efefa03b256",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[0]/div[0]/div[0]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-95550c057c814e61ac2dab4524846058",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[0]/div[0]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-8922fcc058d2463c891dea3a4bf80a85",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[0]/div[0]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-0515dd9b0013421ab877c2845603ba0b",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[0]/div[0]/div[1]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-cb8e2decf9034b0bbef266f95a4cbab2",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-f762d4ee2f174d0e916447ad31a64e15",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-6a8a124b6b264bba925716d7d51cbacd",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[1]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-87b9dae9e67b48ca9bbf0c6bce0e1ad9",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[1]/div[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-7ed5d76a6ad442eeaee25c923dce27ee",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[1]/div[0]/div[0]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-9eff093525554634a9eaf381f75830fd",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[1]/div[0]/div[0]/div[0]/svg[1]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-ab6e1dafab5c40b4a95165063f13bf7b",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[1]/div[0]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-b4c23867ba114b2dbe1a942d6fc93a0d",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[1]/div[0]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-107c96f32df247669ca9c540181cff96",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[1]/div[0]/div[1]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-19d3d85d50ff4b1281288800b8bf3ddb",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[2]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-4b8de9cdca774784a34ab7f9319bf064",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[2]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-5f8cfeeea751453a860fe9cf37c79948",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[2]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-8ebdaa491f364a1fa3401ff9a66c19de",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[2]/div[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-38809d98172c4f10a3e0161200cdcfa3",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[2]/div[0]/div[0]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-18f9bffe7cf148068d74481455552930",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[2]/div[0]/div[0]/div[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-aa8c54210fe5445fafaf508a3645a760",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[2]/div[0]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-c7662c441dd248b6afe99de7d597dc63",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[2]/div[0]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-af783bb02f564de3aaf8a267195de763",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[2]/div[0]/div[1]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-5cd4680aa14e48668609b14608070488",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[3]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-5232f5d0d0604f61b8874750ef755efc",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[3]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-0c5d4df601c449c38f91f8691b942ce9",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[3]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-42b18d84110d4d5c92ca0aa703e024c8",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[3]/div[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-f78521e3090b4f82985a972533fc34c3",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[3]/div[0]/div[0]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-5e293ab2a12c4f4699e34dfa548935f0",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[3]/div[0]/div[0]/div[0]/svg[1]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-e8f9ccfd2e424b25bfe33c008bdaf8f2",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[3]/div[0]/div[0]/div[0]/svg[2]",
+      "tag": "line"
+    },
+    {
+      "id": "builder-81730a446d4c41c990296fd6d5ea6677",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[3]/div[0]/div[0]/div[0]/svg[3]",
+      "tag": "line"
+    },
+    {
+      "id": "builder-3326fc5a8fe64beb8fbbd745436e3014",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[3]/div[0]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-db50c3537dfc445295140a0acea4b588",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[3]/div[0]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-12f66cbc3d004d7da19860467ce0cef2",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[3]/div[0]/div[1]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-fb76decb98a6451aa382200a5ba2c533",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[4]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-ee874f0575234332bc90b1c6fb71eef9",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[4]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-2b4b309398a34757bda09ade54845647",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[4]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-52f73f28dd5345e4943b207113d73eb0",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[4]/div[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-7ea94814fa4e41bebbf5d595317f9437",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[4]/div[0]/div[0]/div[0]/svg[0]",
+      "tag": "rect"
+    },
+    {
+      "id": "builder-36e5a8a24c88432f802cd07839646fa6",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[4]/div[0]/div[0]/div[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-d3c2682cf5b944f4bd37d2686e7f8159",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[4]/div[0]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-24a8d7891c0e4d7a8cdfd22815685115",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[4]/div[0]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-8a9054812070473995bf1a1a65b00591",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[4]/div[0]/div[1]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-8cb67a9561ab461b8cc43d98ddf4c5b8",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[5]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-e376e5424d474f36b5be7c204369f38c",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[5]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-f70481c703724f98bb602b1afbdebb48",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[5]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-d8fb990d590c41f7bb734851d300fcfd",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[5]/div[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-d812d21cdf9f43c4a9345c0e63924c25",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[5]/div[0]/div[0]/div[0]/svg[0]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-b872a9aa3f8d4c27a3a7c4db44b91836",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[5]/div[0]/div[0]/div[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-57af28c63c714131ac966537d71491f9",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[5]/div[0]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-0918dc44898b49d0965c63759cc5728a",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[5]/div[0]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-e8e0a1da6b094f32b941468005810e44",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[1]/div[5]/div[0]/div[1]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-89b4b349361d4e1f8dc491d6438a80db",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[8]/div[1]/div[2]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-9c5d07d8c3fb42f18a84db0114e4983e",
+      "path": "[0]/div[2]/div[1]/aside[2]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-33ff1b9498994fa6a63edcf20a1c94f7",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-0dfec6d588f1437eabc0d474365c70ca",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-2575356639934af9b4410e265dedf0d0",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[0]/div[0]/svg[0]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-a82c99a0de8441f986f1e6c07811bbe9",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[0]/div[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-5ce8ccaf03804f56a866d6ba16f9f4e5",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[0]/div[1]",
+      "tag": "input"
+    },
+    {
+      "id": "builder-54e73639fcae45e68c53646e6ce0ccc0",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-0d57a7b571424a26ab017e2de5e97418",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[1]/div[0]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-6e1d77c334604f54a5f967c57e85c876",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[1]/div[0]/button[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-2eb97e9f451b45f193475a0f36d9c66e",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[1]/div[0]/button[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-e54d4a0d66784d63884ceeba9d24cc43",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[1]/div[0]/button[0]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-d6010bacaf6e4fbea557fa3c45cd2c0d",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[1]/div[0]/button[0]/div[0]/svg[1]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-884315bcb1764ec492fce4a32b93ef17",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[1]/div[0]/button[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-c478f6b93c384d1d8b51f4916c6d60bf",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[1]/div[0]/button[1]/div[0]",
+      "tag": "p"
+    },
+    {
+      "id": "builder-3fe5be12a5614d3586c952a8c03c4475",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[1]/div[0]/button[1]/div[1]",
+      "tag": "p"
+    },
+    {
+      "id": "builder-4e217631d89149b5818cf59d3a19b026",
+      "path": "[0]/div[2]/div[2]",
+      "tag": "main"
+    },
+    {
+      "id": "builder-52ef96c4a5314a828a02b2ad928acb49",
+      "path": "[0]/div[2]/div[2]/main[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-2d46ec23b72f4eaba86626cbc250ca81",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-af4e4656f55742a8aa4ccda961d3bbc3",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-8e40cf3c18d1419ead0d1fb40e4ac67c",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-5a11d8850cbf46c29f4f2218d950decf",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[0]/div[0]/div[0]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-c473b0d732e54711a82574a44ce8e59f",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[0]/div[0]/div[0]/button[0]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-df16fe1f2af648c2bb082db90156fdef",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[0]/div[0]/div[0]/button[1]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-de8f3f040e124cfd87fbd7d7ed921f59",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[0]/div[0]/div[0]/button[1]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-f00aeef6f0d24d689f03509aa3d16bb2",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-8c35a25f8ed545298fbbf33f012d816c",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-11ee9757d62e42a5be633dd4a8284c5d",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-2e312bd4d1854c329a0ad0f262ea50fd",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[0]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-82ee4a7d231d408a8a9fb3433f19ad11",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[0]/div[0]/svg[0]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-38a95a51831b4c739d3bc55d2a58aed8",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[0]/div[0]/svg[1]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-26812b65a74043c596a01151c524551d",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[0]/div[0]/svg[2]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-475800206264426395eab3f323e47b9c",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[0]/div[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-f5cb2d90c31e4393a7989050b7ecb877",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[0]/div[2]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-04c03c1a593f4919a3fed32ddf6ea118",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[0]/div[2]/svg[0]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-501fa9b737ec43ddbffc9df299c982d5",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[0]/div[2]/svg[1]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-998bdeff18744203a7f6ac61b3495811",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-bfc929baa0c04c3f825b536207ef48df",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[1]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-0d19cdfe41b04540a7864256a021e06f",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[1]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-8630e198e6224e85a80816e11c6b9db1",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[1]/div[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-f3627682006244bc90a8c0b84f67a268",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[1]/div[0]/svg[2]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-e0091d5766314adea8d478a140858863",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[1]/div[0]/svg[3]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-56227b5764a94ab391b256f34b38deb6",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[1]/div[0]/svg[4]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-4938493aab6a494bbc2e4a0c9461a6fe",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[1]/div[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-139bca07460942d5b449423f73d0e89a",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[1]/div[2]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-36edf0f2884349878fff747c28b55c21",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[1]/div[2]/svg[0]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-79c6752d47f942f49ac7f81f48498426",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[1]/div[2]/svg[1]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-0e6f13ed67584243bbf787e19c898310",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[2]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-72ccaa6add104c84b634a799226dde6a",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[2]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-c59e50f046b94596bcd5fed776cfa8e3",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[2]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-a421f1aba49d483186b11ebbfca7e17b",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[2]/div[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-008fd29ffbb9495f960a2f123c2ef112",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[2]/div[0]/svg[2]",
+      "tag": "rect"
+    },
+    {
+      "id": "builder-f54c72f701e041b999a6d810c45cfcf6",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[2]/div[0]/svg[3]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-3dfff246ae2a43cebefef021667cc444",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[2]/div[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-26f24d76f0a84fc7b2005de29ea97366",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[2]/div[2]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-364b6c146ac04ea5a4f2d3bcfc17b32d",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[2]/div[2]/svg[0]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-cd4e8fda3e9c4ca295c759d6034d0f79",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[2]/div[2]/svg[1]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-f8c2da5940b14809a20f6b47ce3c9ba0",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-6526aeac03624f008853b0a486a0763e",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-64124480003d4e8ba01874f6d916446a",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]/div[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-9d152537d38547a88d0847982e425232",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]/div[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-385105be4ada463882318ed6921b4a68",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]/div[0]/svg[2]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-b187f23f654c4973bad28ac3180ecf3b",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]/div[0]/svg[3]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-4fa7cdf9fb264f0c9439c72873df08ac",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]/div[0]/svg[4]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-8098ca8f3d7c42dbbcecbf6d9cecdd39",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]/div[0]/svg[5]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-ab5ebf8cc2894f5dadec3d227b0e2450",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]/div[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-616d07623b4743e793606f6e02579546",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]/div[2]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-391ebd235f58403499b0f5190474314d",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]/div[2]/svg[0]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-276c109848eb4d768a5022e8b4014a9b",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[3]/div[2]/svg[1]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-f0436667754345fabdb29b8dc1958c0a",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[4]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-67bfeb24c5b244358cf846eb03e750ba",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[4]/div[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-dcb87df619a7441f94ab23fd72e578cb",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[4]/div[0]/svg[0]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-c0b1cf31a7464da7870144b97fdd239e",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[4]/div[0]/svg[1]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-897806f61d774eea9eaeb18bf863347c",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[4]/div[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-b396d3946bc04e83a7c6b847ce659218",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[4]/div[2]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-8582f1d874034d67b8412d8f655ade9f",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[4]/div[2]/svg[0]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-f98349fe346a4b8cba3d0c3df15573e6",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[1]/div[0]/div[4]/div[2]/svg[1]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-4c90ab518e1e489ca72de0307153f901",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[2]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-1140bfc5764c4094a7b14ae0ebf62df4",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[2]/div[0]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-3cfaa9883560496b8e12ca782786d713",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[2]/div[0]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-882890a28cec4ca988909469e2c94dcb",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[2]/div[0]/button[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-c94e0f2e6d664c0099ddbc37f1f1fe66",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[2]/div[0]/button[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-25c86b942e2e4833925cbc549cd4c127",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[2]/div[0]/button[0]/svg[2]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-26addaf9e8e54611ac2ed9001a0b31a2",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[2]/div[0]/button[0]/svg[3]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-7c1d12acda8540d7a46cc1af701b8769",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[2]/div[0]/button[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-1f7c3c1cd6f34c0197dd2112888df83a",
+      "path": "[0]/div[2]/div[2]/main[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-52fbe46ded6040e2975635379bc564e5",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-5e347d9561ff4c9a82ad11f564bf91fe",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-dc84d86b7a794635b8aa5eafb2294d5d",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-8c56419439dc4811aa032c5aba10d0f5",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-44ad54d619324402a1f244d7f3291faa",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-9dd77505ef71469aa9ba65d84282c1a8",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-8c8eed04a39a4e2ca5700c029dcdfc4c",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[1]/div[0]",
+      "tag": "h2"
+    },
+    {
+      "id": "builder-5659404ec9f748679800862edac0f2c9",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[2]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-99064fd6968a4b3f8efa13496d36231d",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-546f01520c3b4bb08ff3244db1e35cba",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[0]",
+      "tag": "p"
+    },
+    {
+      "id": "builder-f9377c7a86144f5b893ce45bfa02de6e",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-01ba8d0894ea4214b0b6d6d8963ab9c2",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-9fde013205ea47c58edcbb674115670e",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[0]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-5f612f78d2d440f9943d61c8633761d1",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[0]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-eb7e2bc6a0be47b3b5fd6b4ec6fb3392",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[0]/button[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-39cb13dead164d06a021e4bdd73618d0",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[0]/button[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-504958d2d8ee4d7e9469579910e55354",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[0]/button[0]/svg[2]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-1c5943328bb0430ebec44ef4c7dc069f",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[0]/button[0]/svg[3]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-1001d5bee411487e907a4128c3c9496e",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[0]/button[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-82688472d0394e4f87a4a0366b8540d7",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[1]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-42ce9f453d364ea0ae9d8832ed3dfcce",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[1]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-da8d8528887249a0bcb55d59002078c5",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[1]/button[0]/svg[0]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-e33e75afcf13478794dc45c263923f3c",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[1]/button[0]/svg[1]",
+      "tag": "polyline"
+    },
+    {
+      "id": "builder-cbb3521eaaad49c19272a243dfb5203f",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[1]/button[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-28b4bf2e9cb3483ca865f142c11a49e0",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[2]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-204754dd1a624519aca3039365e8d455",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[2]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-e416a992da5b4115ba049820d305ade5",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[2]/button[0]/svg[0]",
+      "tag": "rect"
+    },
+    {
+      "id": "builder-9824a7785a1a4f88aff5bb217c3f6bea",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[2]/button[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-b12904df6b434ae38bcbc43e9a7085b4",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[2]/button[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-771f5a2ed0974fb2b25c4e9691a9fb31",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[3]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-cbac5394aab44c64b620cbd31f660704",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[3]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-dc01436fe09c42b6851cd72420064fd8",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[3]/button[0]/svg[0]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-ace29e6406764356b5804c92f0201f35",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[3]/button[0]/svg[1]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-912f44b3cca74c89ad036cab3fe53556",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[3]/button[0]/svg[2]",
+      "tag": "circle"
+    },
+    {
+      "id": "builder-65e18fe3361d414daa7cbb659142093c",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[3]/button[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-94c28264c3d0407fbf92fec598e21743",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-fefc9856a0064f17a63b8e6ed6bea917",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[0]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-02722d5b560b4b6ea171950605476780",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[0]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-81cc145a05f14de8b5058cc481c31ef0",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[0]/button[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-74e8f28573c046e19ffea9883fabe467",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[0]/button[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-b5888b914d0d44efa1ddc684c33ff352",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[0]/button[0]/svg[2]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-958d5c39f8054485bed766b25d45d8ad",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[0]/button[0]/svg[3]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-9da774d9cf2747bd8a706eb027e63aa8",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[0]/button[0]/svg[4]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-6b113f56d94e4baea51778c0bdada645",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[0]/button[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-89a37f0aeb8c48499251504c0ac70506",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[1]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-f31b464a25b04b94a6e36bdbb9632f76",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[1]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-ffc1022d031f4cbe957fd275bf80165d",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[1]/button[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-c49e67002fbb48d196c8c23d85ffa3eb",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[1]/button[1]",
+      "tag": "span"
+    },
+    {
+      "id": "builder-f6559587fb0941e78de25636c1934282",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-f321563f9a3942858a72ad7633e658cb",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[2]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-5cf2bc8ea9254ceeb6db03b868ded9a8",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-68bcde06e0ca4359851026666e7381ad",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-4a359a127b734817bdfecc76f6fd3aee",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]",
+      "tag": "form"
+    },
+    {
+      "id": "builder-15f8c946291e4798923a0596073fd228",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[0]",
+      "tag": "input"
+    },
+    {
+      "id": "builder-5eb79d302bef4cf490918a7aabfff67f",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-a1ccaae4ef634e6fb3d37106df54876a",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[0]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-46fb0b8faa9b4bf0914a44dfedf1825c",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[0]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-354058ed231e47fc8524e05b0723d858",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[0]/button[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-95a2818a5c9a46658c580befd50055ad",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[0]/button[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-29d6e97224ad410587d7bbf7c02a5926",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[0]/button[0]/svg[2]",
+      "tag": "line"
+    },
+    {
+      "id": "builder-1e3a1f894b294f6dbad856619564609f",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[1]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-c7664a601a67426989105a0b9b9f8dc8",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[1]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-7e7189a30f854266a7bdbd163e827a2a",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[1]/button[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-4cc884aa15bd4b96bd3455f6df090bd8",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[1]/button[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-8d98730f291546e882cd52e969841e9f",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[2]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-54c9c18adf7b4b529b852e08b18bdde3",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[2]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-9143ce4f9981485d8357d55cb1b3e62a",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[2]/button[0]/svg[0]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-79b4b0ccfe5f4d97ada2368f3aa637df",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[2]/button[0]/svg[1]",
+      "tag": "path"
+    },
+    {
+      "id": "builder-c552e5e62e2f4bcf97a5b3895bd5aa92",
+      "path": "[0]/div[3]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-bd0ee774d9e748ec8a6eff50fd65974b",
+      "path": "[0]/div[3]/div[0]",
+      "tag": "ol"
+    },
+    {
+      "id": "builder-00707309e2d647fc8666adf561201b7c",
+      "path": "[0]/div[4]",
+      "tag": "div"
+    },
+    {
+      "id": "builder-a27649d9698c4aa19185de1a942bf53b",
+      "path": "[0]/div[4]/div[0]",
+      "tag": "button"
+    },
+    {
+      "id": "builder-8e8a9f5484164495bd71fe25de0720d5",
+      "path": "[0]/div[4]/div[0]/button[0]",
+      "tag": "svg"
+    },
+    {
+      "id": "builder-057ee4f96b2d48a3a2802df76c48c128",
+      "path": "[0]/div[4]/div[0]/button[0]/svg[0]",
+      "tag": "path"
+    }
+  ],
+  "classes": [],
+  "buttons": [
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[0]",
+      "properties": {}
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[6]/div[0]/div[0]",
+      "properties": {}
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[1]/div[0]",
+      "properties": {
+        "type": "button",
+        "aria-haspopup": "menu",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[0]/div[0]/div[0]",
+      "properties": {}
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[2]/main[0]/div[0]/div[2]/div[0]",
+      "properties": {}
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[0]",
+      "properties": {}
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[1]",
+      "properties": {}
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[2]",
+      "properties": {}
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[0]/div[3]",
+      "properties": {}
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[0]",
+      "properties": {}
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[1]/div[1]/div[1]",
+      "properties": {}
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[0]",
+      "properties": {
+        "type": "button"
+      }
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[1]",
+      "properties": {
+        "type": "button"
+      }
+    },
+    {
+      "text": "",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[1]/div[2]",
+      "properties": {
+        "type": "submit",
+        "disabled": ""
+      }
+    },
+    {
+      "text": "",
+      "path": "[0]/div[4]/div[0]",
+      "properties": {
+        "title": "Support kontaktieren"
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[0]"
+    },
+    {
+      "text": "",
+      "href": "",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[1]"
+    },
+    {
+      "text": "",
+      "href": "",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[2]"
+    },
+    {
+      "text": "",
+      "href": "",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[3]"
+    },
+    {
+      "text": "",
+      "href": "",
+      "path": "[0]/div[2]/div[1]/aside[1]/nav[4]"
+    }
+  ],
+  "forms": [
+    {
+      "tag": "input",
+      "path": "[0]/div[2]/div[1]/aside[2]/div[0]/div[1]",
+      "properties": {
+        "placeholder": "Suchen",
+        "type": "text"
+      },
+      "text": ""
+    },
+    {
+      "tag": "form",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]",
+      "properties": {},
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "path": "[0]/div[2]/div[2]/main[1]/div[0]/div[0]/div[1]/div[0]/div[0]/form[0]",
+      "properties": {
+        "placeholder": "Fragen Sie den Brain nach Ihren Kampagnen, Leads oder Strategien...",
+        "type": "text",
+        "value": ""
+      },
+      "text": ""
+    }
+  ]
+}

@@ -184,13 +184,15 @@ See `.env.example` for all configuration options.
 
 - ✅ **Phase 1:** Database Setup (Complete)
 - ✅ **Phase 2:** Instantly.ai Integration (Complete)
-- 🔄 **Phase 3:** Unified Inbox & Intelligence Layer (Current)
+- 🔄 **Phase 3:** Admin Portal & Unified Inbox (Current)
 - ⚪ **Phase 4:** WeConnect Integration
 - ⚪ **Phase 5:** Research Tool & Company Enrichment
 - ⚪ **Phase 6:** Advanced Analytics & Reporting
 - ⚪ **Phase 7:** Team Collaboration & Automation
 
-See: [Project Roadmap](docs/PROJECT_ROADMAP.md) | [Instantly API Features](docs/INSTANTLY_API_FEATURES.md)
+**⚠️ IMPORTANT:** All project planning is in **[MASTER_PLAN.md](MASTER_PLAN.md)** - SINGLE SOURCE OF TRUTH
+
+See also: [Admin Portal Analysis](docs/ADMIN_PORTAL_ANALYSIS.md) | [Phase 2 Summary](docs/PHASE_2_SUMMARY.md)
 
 ---
 
