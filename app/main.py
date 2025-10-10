@@ -15,21 +15,12 @@ from app.api.auth import router as auth_router
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """
-    Application lifespan manager
-    Handles startup and shutdown events
-    """
+    """Application lifespan manager"""
     # Startup
-    print("🚀 Starting Salesbrain Backend API...")
     await init_db_pools()
-    print("✅ Application ready!")
-
     yield
-
     # Shutdown
-    print("🛑 Shutting down...")
     await close_db_pools()
-    print("✅ Shutdown complete")
 
 
 # Create FastAPI application
@@ -46,12 +37,12 @@ app.add_middleware(
     allow_origins=settings.cors_origins_list,
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"],
+    allow_headers=["*"]
 )
 
 # Include routers
 app.include_router(health_router, tags=["Health"])
-app.include_router(auth_router)
+# app.include_router(auth_router)  # Temporarily disabled for testing
 
 
 @app.get("/")

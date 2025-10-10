@@ -38,7 +38,7 @@ async def init_db_pools():
         command_timeout=60
     )
 
-    print("✅ Database pools initialized")
+    print("[OK] Database pools initialized")
 
 
 async def close_db_pools():
@@ -50,11 +50,11 @@ async def close_db_pools():
 
     if global_kb_pool:
         await global_kb_pool.close()
-        print("✅ Global-KB pool closed")
+        print("[OK] Global-KB pool closed")
 
     if tenant_db_pool:
         await tenant_db_pool.close()
-        print("✅ Tenant-DB pool closed")
+        print("[OK] Tenant-DB pool closed")
 
 
 @asynccontextmanager
@@ -100,7 +100,7 @@ async def check_global_kb_health() -> bool:
             await conn.fetchval("SELECT 1")
         return True
     except Exception as e:
-        print(f"❌ Global-KB health check failed: {e}")
+        print(f"[ERROR] Global-KB health check failed: {e}")
         return False
 
 
@@ -112,5 +112,5 @@ async def check_tenant_db_health() -> bool:
             await conn.fetchval("SELECT 1")
         return True
     except Exception as e:
-        print(f"❌ Tenant-DB health check failed: {e}")
+        print(f"[ERROR] Tenant-DB health check failed: {e}")
         return False

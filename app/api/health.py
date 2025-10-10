@@ -46,7 +46,8 @@ async def readiness_check():
     if global_kb_ok and tenant_db_ok:
         return {"status": "ready"}
     else:
-        return {"status": "not_ready"}, 503
+        from fastapi import HTTPException
+        raise HTTPException(status_code=503, detail="Not ready")
 
 
 @router.get("/health/live")
