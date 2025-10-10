@@ -41,6 +41,10 @@ class Settings(BaseSettings):
     # Environment
     environment: str = "development"
 
+    # Instantly.ai Integration
+    instantly_api_key: str
+    instantly_webhook_url: str = "http://localhost:8001/webhooks/instantly/webhook"
+
     @property
     def is_development(self) -> bool:
         return self.environment == "development"

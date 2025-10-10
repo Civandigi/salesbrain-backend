@@ -182,13 +182,15 @@ See `.env.example` for all configuration options.
 
 ## 🔄 Development Phases
 
-- ✅ **Phase 1:** Database Setup (Current)
-- ⚪ **Phase 2:** Instantly Integration
-- ⚪ **Phase 3:** Frontend Integration
-- ⚪ **Phase 4:** Research Tool
-- ⚪ **Phase 5:** Edibot Integration
+- ✅ **Phase 1:** Database Setup (Complete)
+- ✅ **Phase 2:** Instantly.ai Integration (Complete)
+- 🔄 **Phase 3:** Unified Inbox & Intelligence Layer (Current)
+- ⚪ **Phase 4:** WeConnect Integration
+- ⚪ **Phase 5:** Research Tool & Company Enrichment
+- ⚪ **Phase 6:** Advanced Analytics & Reporting
+- ⚪ **Phase 7:** Team Collaboration & Automation
 
-See: [Implementation Plan](https://github.com/Civandigi/Salesbrain-UI-Beta)
+See: [Project Roadmap](docs/PROJECT_ROADMAP.md) | [Instantly API Features](docs/INSTANTLY_API_FEATURES.md)
 
 ---
 
