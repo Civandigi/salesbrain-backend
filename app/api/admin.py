@@ -5,11 +5,15 @@ Provides APIs for Admin Dashboard monitoring and management.
 """
 
 import logging
-from typing import Optional
+from typing import Optional, List
 from datetime import datetime
 from uuid import UUID
+from io import StringIO
+import csv
+import json
 
-from fastapi import APIRouter, Depends, HTTPException, status, Query
+from fastapi import APIRouter, Depends, HTTPException, status, Query, Body
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 from app.services import webhook_log_service
@@ -209,6 +213,51 @@ async def retry_failed_webhook(log_id: UUID):
         )
 
 
+@router.post("/webhooks/logs/bulk-retry", status_code=status.HTTP_200_OK)
+async def bulk_retry_failed_webhooks(
+    log_ids: List[UUID] = Body(..., description="List of webhook log IDs to retry")
+):
+    """
+    Retry multiple failed webhooks at once.
+
+    **Admin Only**
+
+    **Args:**
+    - log_ids: Array of webhook log UUIDs
+
+    **Returns:**
+    - success_count: Number of webhooks queued for retry
+    - failed_count: Number of webhooks that couldn't be retried
+    """
+    # TODO: Add auth check (admin only)
+    # user = Depends(require_admin)
+
+    try:
+        success_count = 0
+        failed_count = 0
+
+        for log_id in log_ids:
+            success = await webhook_log_service.retry_webhook_log(log_id)
+            if success:
+                success_count += 1
+            else:
+                failed_count += 1
+
+        return {
+            "success": True,
+            "success_count": success_count,
+            "failed_count": failed_count,
+            "message": f"Queued {success_count} webhooks for retry, {failed_count} failed"
+        }
+
+    except Exception as e:
+        logger.error(f"Failed to bulk retry webhooks: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(e)
+        )
+
+
 @router.delete("/webhooks/logs/cleanup", status_code=status.HTTP_200_OK)
 async def cleanup_old_webhook_logs(
     older_than_days: int = Query(90, ge=1, le=365, description="Delete logs older than X days")
@@ -248,6 +297,104 @@ async def cleanup_old_webhook_logs(
         )
 
 
+@router.get("/webhooks/logs/export", status_code=status.HTTP_200_OK)
+async def export_webhook_logs(
+    format: str = Query("csv", regex="^(csv|json)$", description="Export format"),
+    event_type: Optional[str] = Query(None),
+    campaign_id: Optional[UUID] = Query(None),
+    status_filter: Optional[str] = Query(None, alias="status"),
+    date_from: Optional[datetime] = Query(None),
+    date_to: Optional[datetime] = Query(None)
+):
+    """
+    Export webhook logs to CSV or JSON.
+
+    **Admin Only**
+
+    **Formats:**
+    - csv: Comma-separated values
+    - json: JSON array
+
+    **Returns:**
+    - File download with appropriate content-type
+    """
+    # TODO: Add auth check (admin only)
+    # user = Depends(require_admin)
+
+    try:
+        # Get logs with same filters
+        result = await webhook_log_service.get_webhook_logs(
+            limit=10000,  # Max export limit
+            offset=0,
+            event_type=event_type,
+            campaign_id=campaign_id,
+            status=status_filter,
+            date_from=date_from,
+            date_to=date_to,
+            user_role="sb_admin"  # Admin export sees all
+        )
+
+        logs = result["logs"]
+
+        if format == "csv":
+            # Generate CSV
+            output = StringIO()
+            writer = csv.DictWriter(output, fieldnames=[
+                "id", "event_type", "event_source", "campaign_name",
+                "contact_email", "status", "error_message", "created_at"
+            ])
+            writer.writeheader()
+
+            for log in logs:
+                writer.writerow({
+                    "id": str(log["id"]),
+                    "event_type": log["event_type"],
+                    "event_source": log["event_source"],
+                    "campaign_name": log.get("campaign_name", ""),
+                    "contact_email": log.get("contact_email", ""),
+                    "status": log["status"],
+                    "error_message": log.get("error_message", ""),
+                    "created_at": log["created_at"].isoformat()
+                })
+
+            content = output.getvalue()
+
+            return StreamingResponse(
+                iter([content]),
+                media_type="text/csv",
+                headers={
+                    "Content-Disposition": f"attachment; filename=webhook_logs_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.csv"
+                }
+            )
+
+        else:  # json
+            # Generate JSON
+            # Convert datetime objects to strings
+            for log in logs:
+                log["created_at"] = log["created_at"].isoformat()
+                if log.get("processed_at"):
+                    log["processed_at"] = log["processed_at"].isoformat()
+                if log.get("last_retry_at"):
+                    log["last_retry_at"] = log["last_retry_at"].isoformat()
+
+            content = json.dumps(logs, indent=2)
+
+            return StreamingResponse(
+                iter([content]),
+                media_type="application/json",
+                headers={
+                    "Content-Disposition": f"attachment; filename=webhook_logs_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.json"
+                }
+            )
+
+    except Exception as e:
+        logger.error(f"Failed to export webhook logs: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(e)
+        )
+
+
 @router.get("/webhooks/stats", status_code=status.HTTP_200_OK)
 async def get_webhook_stats():
     """
@@ -268,6 +415,72 @@ async def get_webhook_stats():
 
     except Exception as e:
         logger.error(f"Failed to fetch webhook stats: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(e)
+        )
+
+
+# ========================================
+# Campaign Filter Endpoints
+# ========================================
+
+@router.get("/campaigns/filter", status_code=status.HTTP_200_OK)
+async def get_campaigns_for_filter(
+    organization_id: Optional[UUID] = Query(None, description="Filter by organization"),
+    search: Optional[str] = Query(None, description="Search campaign names"),
+    status_filter: Optional[str] = Query(None, alias="status", description="Filter by status")
+):
+    """
+    Get campaigns for dropdown filters (lightweight).
+
+    Returns only id, name, status for UI dropdowns.
+
+    **Returns:**
+    - List of campaigns with minimal data for filters
+    """
+    try:
+        from app.core import db
+
+        where_clauses = []
+        params = []
+        param_count = 0
+
+        if organization_id:
+            param_count += 1
+            where_clauses.append(f"organization_id = ${param_count}")
+            params.append(organization_id)
+
+        if search:
+            param_count += 1
+            where_clauses.append(f"name ILIKE ${param_count}")
+            params.append(f"%{search}%")
+
+        if status_filter:
+            param_count += 1
+            where_clauses.append(f"status = ${param_count}")
+            params.append(status_filter)
+
+        where_sql = "WHERE " + " AND ".join(where_clauses) if where_clauses else ""
+
+        async with db.tenant_db_pool.acquire() as conn:
+            rows = await conn.fetch(f"""
+                SELECT id, name, status, organization_id
+                FROM campaign
+                {where_sql}
+                ORDER BY name ASC
+                LIMIT 100
+            """, *params)
+
+        campaigns = [dict(row) for row in rows]
+
+        return {
+            "success": True,
+            "data": campaigns
+        }
+
+    except Exception as e:
+        logger.error(f"Failed to fetch campaigns for filter: {e}")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=str(e)

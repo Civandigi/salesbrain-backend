@@ -2,9 +2,9 @@
 ## SINGLE SOURCE OF TRUTH
 
 > **WICHTIG:** Dies ist die EINZIGE Planungsdatei für das Salesbrain-Projekt.
-> **Letzte Aktualisierung:** 2025-10-10
-> **Version:** 2.0
-> **Status:** Phase 2 Complete ✅ → Phase 3 Current
+> **Letzte Aktualisierung:** 2025-10-12
+> **Version:** 2.1
+> **Status:** Phase 3 Backend Complete (70%) → Frontend Development
 
 ---
 
@@ -305,9 +305,9 @@ POST /api/admin/onboarding/link/{link_id}/extend
 
 #### **Sofort (Woche 1-2)** - KRITISCH!
 1. ✅ Authentication enable & testen
-2. ✅ **Webhook Logs UI** (wie oben beschrieben)
-3. ✅ **User Assignment Interface** (wie oben beschrieben)
-4. ✅ **Onboarding Link Generator** (wie oben beschrieben)
+2. ✅ **Webhook Logs Backend + UI** - Backend 100% complete, UI 100% complete (Frontend repo)
+3. ✅ **User Assignment Backend + Interface** - Backend 100% complete, UI TODO
+4. ✅ **Onboarding Link Generator Backend** - Backend 100% complete, UI TODO
 5. Campaign List View (Admin + Customer)
 6. Organization Dashboard Landing Page
 
@@ -486,9 +486,9 @@ CREATE INDEX idx_onboarding_link_token ON onboarding_link(link_token);
 ## 🎯 SUCCESS METRICS
 
 ### Phase 3 Completion Criteria:
-- [ ] Admin kann Webhook Logs sehen (real-time)
-- [ ] Admin kann Users zu Campaigns/Contacts zuweisen
-- [ ] Admin kann Onboarding-Links erstellen & verwalten
+- [x] Admin kann Webhook Logs sehen (real-time) - Backend COMPLETE, UI COMPLETE
+- [x] Admin kann Users zu Campaigns/Contacts zuweisen - Backend COMPLETE, UI TODO
+- [x] Admin kann Onboarding-Links erstellen & verwalten - Backend COMPLETE, UI TODO
 - [ ] Campaign List View funktional (Admin + Customer)
 - [ ] Contact Management CRUD komplett
 - [ ] Message Center (Unified Inbox) funktional
@@ -541,13 +541,13 @@ CREATE INDEX idx_onboarding_link_token ON onboarding_link(link_token);
 ## 📝 OPEN TODOS (High Priority)
 
 ### Sofort:
-- [ ] Webhook Logs Backend API implementieren
-- [ ] Webhook Logs UI bauen
-- [ ] User Assignment Backend API implementieren
-- [ ] User Assignment UI bauen
-- [ ] Onboarding Links Backend API implementieren
-- [ ] Onboarding Links UI bauen
-- [ ] Authentication enable & testen
+- [x] Webhook Logs Backend API implementieren - COMPLETE (2025-10-12)
+- [x] Webhook Logs UI bauen - COMPLETE (Frontend repo)
+- [x] User Assignment Backend API implementieren - COMPLETE (2025-10-12)
+- [ ] User Assignment UI bauen - TODO (Frontend)
+- [x] Onboarding Links Backend API implementieren - COMPLETE (2025-10-12)
+- [ ] Onboarding Links UI bauen - TODO (Frontend)
+- [x] Authentication enable & testen - COMPLETE
 
 ### Phase 3:
 - [ ] Campaign List UI (Admin + Customer)

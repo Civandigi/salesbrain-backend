@@ -13,6 +13,8 @@ from app.api.health import router as health_router
 from app.api.auth import router as auth_router
 from app.api.instantly import router as instantly_router
 from app.api.admin import router as admin_router
+from app.api.user_assignments import router as user_assignments_router
+from app.api.onboarding_links import router as onboarding_links_router
 from app.integrations.instantly.webhooks import router as instantly_webhooks_router
 
 
@@ -49,6 +51,8 @@ app.include_router(health_router, tags=["Health"])
 
 # Admin Dashboard routers
 app.include_router(admin_router)  # Admin Dashboard API
+app.include_router(user_assignments_router)  # User Assignment API
+app.include_router(onboarding_links_router)  # Onboarding Links API
 
 # Instantly Integration routers
 app.include_router(instantly_router)  # API endpoints
